@@ -1,0 +1,72 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    background-image:linear-gradient(#fff, rgb(38, 100, 134), #fff);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.WeatherCard {
+    border: 2px solid #eee;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    border-style: dashed;
+    transform: scale3d(0.01);
+    
+    
+}
+
+.weatherCard-title {
+    color: #fff;
+    font-size: 40px;
+}
+
+.weatherCard-temp {
+    font-size: 30px;
+    margin: 5px 0;
+    color: #f3f4ec;
+}
+
+.weatherCard-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.weatherCard-list span {
+    font-weight: bold;
+}
+
+.weatherCard-description {
+    font-size: 25px;
+    color: rgb(6, 27, 6);
+}
+
+.weatherCard-btn {
+    border: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(33, 146, 202);
+    color: #fff;
+    cursor: pointer;
+}
+
+.weatherCard-btn:hover {
+    transform: scale(1.03);
+
+}
+
+.weatherCard-place {
+    font-size: 30px;
+    color: rgb(16, 49, 16);
+}
